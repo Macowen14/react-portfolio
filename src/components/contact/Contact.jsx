@@ -35,7 +35,7 @@ const Contact = () => {
             {" "}
             <FaInstagram />
           </span>
-          <a href="https://www.instagram.com/macowenK">macowenK</a>
+          <a href="https://www.instagram.com/macowen.K">macowenK</a>
         </li>
         <li className="link">
           <span className="icon">
