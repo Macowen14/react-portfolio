@@ -1,0 +1,21 @@
+About Me
+Hi there! I'm Macowen Keru, a passionate and dedicated software developer based in Kirinyaga, Kenya. Currently, I'm pursuing my Certificate in Software Development at the Inceptor Institute of Technology in Nairobi, where I am honing my skills in web development and design.
+
+Ever since I wrote my first line of code, I've been captivated by the endless possibilities of technology and how it can transform our world. I have a strong foundation in HTML5, CSS, and JavaScript, and I am proficient in various modern frameworks such as React and Laravel. My technical toolkit also includes expertise in PHP, MySQL, Sass, and Bootstrap, which I use to build dynamic, responsive, and user-friendly web applications.
+
+What Drives Me
+My journey in software development is driven by a genuine love for problem-solving and a constant desire to learn and grow. Whether it's creating a sleek e-commerce platform, developing a social media application, or building a comprehensive content management system, I thrive on tackling challenging projects and delivering high-quality solutions.
+
+My Projects
+Throughout my studies, I've completed several projects that demonstrate my technical abilities and creativity:
+
+E-commerce Website Development: A dynamic e-commerce platform built with HTML, CSS, JavaScript, and PHP, featuring responsive design and a MySQL database for product inventory and user management.
+Social Media Application: A real-time social media application developed using React and Node.js, with features like messaging and notifications.
+Content Management System: A robust CMS created with Laravel, designed for efficient content management and scalability.
+Student Management System: A student management system built with plain PHP and MySQL, showcasing my skills in database management and secure data handling.
+React Portfolio: This very portfolio, built with React, to highlight my projects and skills
+Looking Ahead
+As I approach my graduation in July 2024, I am excited about the opportunities that lie ahead. I am eager to apply my skills and knowledge in a professional setting, contribute to meaningful projects, and continue to grow as a developer. My goal is to join a forward-thinking company where I can collaborate with talented individuals, learn from experienced mentors, and make a positive impact through innovative software solutions.
+
+Let's Connect
+Thank you for visiting my portfolio! I invite you to explore my projects and get in touch if you'd like to discuss potential collaborations, job opportunities, or just share your thoughts on the latest in tech. Feel free to reach out to me via email or connect with me on GitHub.

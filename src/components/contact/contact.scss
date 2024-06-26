@@ -1,0 +1,74 @@
+@import "../../var.scss";
+#contact {
+  display: flex;
+  margin-top: 80px;
+  background-color: $color-secondary;
+  justify-content: space-evenly;
+  padding: 56px 10%;
+
+  .text {
+    h2 {
+      font-size: 65px;
+      font-weight: 600;
+      letter-spacing: 4px;
+    }
+    p {
+      font-size: 27px;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+  }
+
+  .links {
+    display: flex column;
+    align-items: flex-start;
+    gap: 26px;
+
+    .link {
+      display: flex;
+      align-items: center;
+      gap: 25;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+
+      &:hover {
+        color: orangered;
+        transform: scale(1.1);
+      }
+
+      a {
+        color: $color-text;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+      }
+
+      .icon {
+        font-size: 30px;
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #contact {
+    flex-direction: column;
+    gap: 20px;
+    .text {
+      text-align: center;
+      h2 {
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 4px;
+      }
+      p {
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}

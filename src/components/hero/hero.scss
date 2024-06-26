@@ -1,0 +1,85 @@
+@import "../../var.scss";
+
+.hero {
+  position: relative;
+  display: flex;
+  margin: 49px 10% 20px 10%;
+  justify-content: space-between;
+
+  .content {
+    color: $color-text;
+
+    .title {
+      font-family: $font-Roboto;
+      font-weight: 800;
+      margin-bottom: 33px;
+      font-size: 50px;
+    }
+
+    .description {
+      font-family: $font-Roboto;
+      margin-bottom: 52px;
+      font-size: 20px;
+    }
+
+    .btn {
+      color: $color-text;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 17px 26px;
+      border-radius: 30px;
+      border: none;
+      background-color: $color-primary;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  .heroImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-position: center;
+    animation: animate 3s ease-in-out 0.2s infinite;
+  }
+
+  .topblur {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: rgba(25, 55, 109, 0.75);
+    filter: blur(100px);
+    z-index: 0;
+  }
+
+  .topblur {
+    top: 0;
+  }
+
+  .bottom-blur {
+    bottom: 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+
+    .heroImg {
+      animation: none;
+    }
+  }
+}

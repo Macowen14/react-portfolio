@@ -1,0 +1,27 @@
+[
+  {
+    "name": "React portfolio",
+    "description": "This very portfolio, built with React, to highlight my projects and skills",
+    "languages": ["React", "HTML", "Sass"],
+    "source": "https://github.com/Macowen14/react-portfolio"
+  },
+  {
+    "name": "E-commerce Website",
+    "description": " A dynamic e-commerce platform featuring responsive design and a MySQL database for product inventory and user management.",
+    "languages": ["HTML", "CSS", "JS", "PHP"],
+    "source": "https://github.com/Macowen14/e-commerce"
+  },
+  {
+    "name": "Student Management System",
+    "description": "This project was made to show my skills in handling sensitive data.",
+    "languages": ["PHP", "HTML", "CSS"],
+    "source": "https://github.com/Macowen14/studentManagement"
+  },
+
+  {
+    "name": "Chat app",
+    "description": " A real-time chat app with features like messaging and notifications.",
+    "languages": ["HTML", "CSS", "React", "Node JS"],
+    "source": "https://github.com/Macowen14/chat app"
+  }
+]

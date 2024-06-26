@@ -1,0 +1,42 @@
+[
+  {
+    "title": "HTML5",
+    "image": "/src/assets/html.png"
+  },
+  {
+    "title": "CSS3",
+    "image": "/src/assets/css.jpeg"
+  },
+  {
+    "title": "JavaScript",
+    "image": "/src/assets/javascript.webp"
+  },
+  {
+    "title": "Bootstrap",
+    "image": "/src/assets/bootstrap.png"
+  },
+  {
+    "title": "React",
+    "image": "/src/assets/react.png"
+  },
+  {
+    "title": "Sass",
+    "image": "/src/assets/sass.png"
+  },
+  {
+    "title": "Git and Github",
+    "image": "/src/assets/git github.png"
+  },
+  {
+    "title": "PHP",
+    "image": "/src/assets/php.png"
+  },
+  {
+    "title": "Laravel",
+    "image": "/src/assets/laravel.png"
+  },
+  {
+    "title": "Mysql",
+    "image": "/src/assets/mysql.png"
+  }
+]
