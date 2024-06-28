@@ -21,7 +21,7 @@ const Contact = () => {
           <span className="icon">
             <FaLinkedin />
           </span>
-          <a href="https://www.linkedin.com/macowen">linkedin/macowen</a>
+          <a href="www.linkedin.com/in/macowen-keru-933ba0302">macowen-keru</a>
         </li>
         <li className="link">
           <span className="icon">
