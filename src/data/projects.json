@@ -7,8 +7,8 @@
   },
   {
     "name": "E-commerce Website",
-    "description": " A dynamic e-commerce platform featuring responsive design and a MySQL database for product inventory and user management.",
-    "languages": ["HTML", "CSS", "JS", "PHP"],
+    "description": " A dynamic e-commerce website where users can order food.It is mobile responsive and fast",
+    "languages": ["HTML", "CSS", "JS", "React"],
     "source": "https://github.com/Macowen14/e-commerce"
   },
   {
@@ -19,9 +19,9 @@
   },
 
   {
-    "name": "Chat app",
-    "description": " A real-time chat app with features like messaging and notifications.",
-    "languages": ["HTML", "CSS", "React", "Node JS"],
-    "source": "https://github.com/Macowen14/chat app"
+    "name": "Sample Projects",
+    "description": " These are small projects like weather app ,rock paper scissors game , clock and many more.",
+    "languages": ["HTML", "CSS", "Javascript"],
+    "source": "https://github.com/Macowen14/small-projects"
   }
 ]
