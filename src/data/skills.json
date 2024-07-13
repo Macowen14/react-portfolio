@@ -26,5 +26,9 @@
   {
     "title": "PHP",
     "image": "/src/assets/php.png"
+  },
+  {
+    "title": "Node.js",
+    "image": "/src/assets/nodejs.jpg"
   }
 ]
