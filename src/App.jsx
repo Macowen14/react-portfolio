@@ -1,21 +1,19 @@
-import React, { Suspense, lazy } from "react";
+import { Suspense, lazy } from "react";
 import "./App.scss";
-const Navbar = lazy(() => import("./components/navbar/Navbar"));
-const Hero = lazy(() => import("./components/hero/Hero"));
-const About = lazy(() => import("./components/about/About"));
-const Experience = lazy(() => import("./components/experience/Experience"));
-const Projects = lazy(() => import("./components/projects/Projects"));
+import Navbar from "./components/navbar/Navbar";
+import Home from "./components/Home";
 const Contact = lazy(() => import("./components/contact/Contact"));
-
+import { Routes, Route } from "react-router-dom";
+import Projects from "./components/projects/Projects";
 function App() {
   return (
     <div className="App">
-      <Suspense fallback={<div>Loading...</div>}>
-        <Navbar />
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
+      <Navbar />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+      <Suspense fallback={<div>Loading contact section</div>}>
         <Contact />
       </Suspense>
     </div>

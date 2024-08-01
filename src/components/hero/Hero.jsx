@@ -1,10 +1,9 @@
-import React from "react";
 import "./hero.scss";
 import HeroImg from "../../assets/about.png";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="content">
         <h1 className="title">Hi there I'm Macowen Keru</h1>
         <p className="description">

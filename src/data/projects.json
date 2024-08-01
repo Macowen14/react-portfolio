@@ -8,13 +8,13 @@
   {
     "name": "E-commerce Website",
     "description": " A dynamic e-commerce website where users can order food.It is mobile responsive and fast",
-    "languages": ["HTML", "CSS", "JS", "React"],
+    "languages": ["HTML", "CSS", "JS", "React", "Node js", "Mysql"],
     "source": "https://github.com/Macowen14/e-commerce"
   },
   {
     "name": "Student Management System",
     "description": "This project was made to show my skills in handling sensitive data.",
-    "languages": ["PHP", "HTML", "CSS"],
+    "languages": ["PHP", "HTML", "CSS", "Mysql"],
     "source": "https://github.com/Macowen14/studentManagement"
   },
 

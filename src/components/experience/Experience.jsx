@@ -1,6 +1,7 @@
 import React from "react";
 import skills from "../../data/skills.json";
 import "./experience.scss";
+import ImageComponent from "../imageLoader/ImageComponent";
 
 const Experience = () => {
   return (
@@ -14,7 +15,7 @@ const Experience = () => {
       <div className="skills-list">
         {skills.map((skill, index) => (
           <div key={index} className="skill-item">
-            <img src={skill.image} alt={skill.title} className="skill-image" />
+            <ImageComponent src={skill.image} alt={skill.title} />
             <h3>{skill.title}</h3>
           </div>
         ))}
